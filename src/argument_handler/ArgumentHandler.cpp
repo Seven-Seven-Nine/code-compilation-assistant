@@ -72,7 +72,7 @@ std::string ArgumentHandler::get_value_argument_version_language() const {
 
 std::string ArgumentHandler::get_value_argument_file_name() const {
   if (this->value_argument_file_name.empty()) {
-    std::cout << "Ошибка: значение переданного аргумента \"file_name\" пустое!" << std::endl;
+    std::cout << "Ошибка: значение переданного аргумента \"file-name\" пустое!" << std::endl;
     std::exit(EXIT_FAILURE);
   }
   return this->value_argument_file_name;
